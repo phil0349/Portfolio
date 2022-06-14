@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Anton";
+  src: url(../fonts/Anton/Anton-Regular.ttf) format("woff2");
+} /* font-family: 'Anton', sans-serif */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf) format("woff2");
+} /* font-family: 'Bebas Neue', cursive */
+@font-face {
+  font-family: "DM";
+  src: url(../fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf) format("woff2");
+} /* font-family: 'DM Serif Display', serif */
+@font-face {
+  font-family: "Staatliches";
+  src: url(../fonts/Staatliches/Staatliches-Regular.ttf) format("woff2");
+} /* font-family: 'Staatliches', cursive */
+@font-face {
+  font-family: "Six Caps";
+  src: url(../fonts/Six_Caps/SixCaps-Regular.ttf) format("woff2");
+} /* font-family: 'Six Caps', sans-serif */
+@font-face {
+  font-family: "Bowlby";
+  src: url(../fonts/Bowlby_One_SC/BowlbyOneSC-Regular.ttf) format("woff2");
+} /* font-family: 'Bowlby Ons SC', cursive */
+@font-face {
+  font-family: "Rubik";
+  src: url(../fonts/Rubik_Microbe/RubikMicrobe-Regular.ttf) format("woff2");
+} /* font-family: 'Rubik Microbe', cursive */
+@font-face {
+  font-family: "IM";
+  src: url(../fonts/IM_Fell_English/IMFellEnglish-Regular.ttf) format("woff2");
+} /* font-family: 'IM Fell English', serif */
+@font-face {
+  font-family: "Monofett";
+  src: url(../fonts/Monofett/Monofett-Regular.ttf) format("woff2");
+} /* font-family: 'Monofett', cursive */
+
+h1 {
+  font-family: "Staatliches", cursive;
+  font-style: normal;
+  font-size: 2.5rem;
+  text-align: left;
+  color: #e8e37e;
+  text-shadow: 2px 2px #000000;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  font-size: 1.7rem;
+  text-align: left;
+  color: #e8e37e;
+  text-shadow: 2px 2px #000000;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: "DM", serif;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+  line-height: 1.8;
+}
+a {
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  font-size: 0.8rem;
+  text-align: left;
+  color: #e8e37e;
+  text-shadow: 2px 2px #000000;
+  margin: 0;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  a {
+    font-family: "Bebas Neue", cursive;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: left;
+    color: #e8e37e;
+    text-shadow: 2px 2px #000000;
+    margin: 0;
+    line-height: 1.8;
+    text-decoration: none;
+  }
+  h1 {
+    font-family: "Staatliches", cursive;
+    font-style: normal;
+    font-size: 3.5rem;
+    text-align: left;
+    color: #e8e37e;
+    text-shadow: 3px 3px #000000;
+    margin: 0;
+  }
+}
