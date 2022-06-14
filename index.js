@@ -1,5 +1,5 @@
 function myFunction() {
-  var x = document.getElementById("myLinks");
+  var x = (document.getElementById("myLinks").style.minWidth = "850px");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
