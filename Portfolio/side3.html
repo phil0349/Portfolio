@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Portfolio - CV</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/typografi.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/side3.css" />
+    <link rel="icon" type="image/svg" href="favicon-2.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bowlby+One+SC&family=DM+Serif+Display&family=IM+Fell+English&family=Monofett&family=Rubik+Microbe&family=Six+Caps&family=Staatliches&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navigation">
+        <a href="index.html"> <img class="favicon" src="favicon-2.svg" alt="home-button" /> </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <nav show="myFunction(show)" min-width (850px)>
+          <div id="myLinks">
+            <a href="side1.html">Tema 1 & 2</a>
+            <a href="side2.html">Tema 3</a>
+            <a href="side3.html">Tema 4</a>
+            <a href="side4.html">Tema 5</a>
+            <a href="cv.html">Om mig</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="container">
+        <figure class="respon1">
+          <img src="img/animationsspil.webp" alt="testfoto" />
+        </figure>
+        <article class="respon2">
+          <h1>Animation</h1>
+          <h2>Tema 4</h2>
+          <p>I animation udviklede jeg mit eget klik-spil. Der var sat nogle rammer for game mechanics, fx der skulle være gode og dårlige elementer at klikke på og man skulle tilføje point, liv og tid osv. Denne proces bestod af 5 punkter jeg var igennem for at færdiggøre spillet.</p>
+
+          <p>I første punkt, research og ide, kom jeg hurtigt på en ide til mit spil og skitserede en spilplatform i hånden. Testede min ide overfor medstuderende som konkluderede at det var en god ide.</p>
+
+          <p>Ved det visuelle udtryk fandt jeg inspiration til spil elementerne gennem en spansk animationstegner Berto Fojo, den måde han tegnede sine figurer på var en blanding af runde former og surrealisme, som jeg fandt interessant for at gøre mine spil figurer mere sjove.</p>
+
+          <p>Endte med at rentegne figurer og baggrunden for spillet i Illustrator.</p>
+        </article>
+        <article class="respon3">
+          <p>Midtvejs af forløbet opbyggede jeg spillet igennem og CSS, ved at positionere baggrunden først og spil elementerne efterfølgende. Jeg udviklede et layoutdiagram som skulle hjælpe mig med at få de rigtige funktioner på mine spilelementer.</p>
+
+          <p>Jeg blev introduceret til JavaScript og fik sat funktioner på mine spilelementer.</p>
+
+          <p>Det var nogle rene og beskidte håndklæder jeg havde bestemt der skulle falde forskelligt fra toppen af spilskærmen ved random position, og ned til bunden hvor de ramte nogle solsenge, og dernæst når de ramte skulle starte forfra med at falde ned igen.</p>
+
+          <p>Ved færdiggørelsen udviklede jeg et state-machine diagram over det færdige spil, og blev vi delt op i nogle grupper i teams og skulle observerer underviseren spille mit spil og give feedback.</p>
+
+          <p>Disse redskaber tager jeg med til mit CV: Game Mechanics (aktivitetsdiagram og state-machine diagram), UI-elementer, assetliste, Git og GitLens, CSS (positions, overflow, z-indez og transform), JavaScript, lydbølger og Adobe Illustrator.</p>
+          <p class="link"><a href="http://philipsjoetlov.dk/kea/04_animation/spil/spil.html">Se animations spillet!</a></p>
+        </article>
+        <figure class="figure2">
+          <img src="img/spil.webp" alt="testfoto" />
+        </figure>
+      </section>
+      <section>
+        <figure class="figure1">
+          <img src="img/philipsjoetlov_state_machine.webp" alt="testfoto" />
+        </figure>
+      </section>
+    </main>
+    <footer><small class="info"> Philip Nygaard Sjøtlov - Københavns Erhvervsakademi - 1. SEM Tema 06 - Portfolioeksamen </small></footer>
+    <script src="index.js"></script>
+  </body>
+</html>

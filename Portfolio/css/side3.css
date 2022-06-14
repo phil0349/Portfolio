@@ -1,0 +1,31 @@
+@media (min-width: 850px) {
+  .respon1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin: 0;
+  }
+  .respon2 {
+    grid-column: 2 / span 2;
+    grid-row: 1 / 2;
+    margin: 0;
+  }
+  .respon3 {
+    grid-column: 2 / span 2;
+    grid-row: 2 / 3;
+    margin: 0;
+  }
+  .figure2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin: 0;
+  }
+  .link {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    margin: 0;
+  }
+  .figure1 {
+    margin: 0;
+    width: 100%;
+  }
+}
