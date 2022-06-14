@@ -8,12 +8,43 @@
   a {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
     text-overflow: clip;
     max-width: 100%;
     margin: 0;
     margin-inline: 1%;
     margin-block-end: 5%;
+  }
+  .navigation {
+    background-color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigation #myLinks {
+    display: none;
+    width: 140px;
+  }
+  .navigation a {
+    color: #e8e37e;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  .navigation a.icon {
+    background: #cbcbcb;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+  .navigation a:hover {
+    background-color: #cbcbcb;
+    color: white;
+    text-shadow: 2px 2px #000000;
+  }
+  .favicon {
+    border-style: none;
+    max-width: 100px;
   }
 }
 
@@ -117,5 +148,19 @@
     align-self: stretch;
     object-fit: cover;
     transform: rotate(2deg);
+  }
+  .topnav .icon {
+    display: none;
+  }
+  .navigation #myLinks {
+    display: flex;
+    justify-content: center;
+  }
+  #myLinks {
+    margin: 0;
+  }
+  .favicon {
+    border-style: none;
+    max-width: 100px;
   }
 }
